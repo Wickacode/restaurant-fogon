@@ -1,0 +1,58 @@
+#home {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  background-color: #1c2021;
+
+  img:first-child {
+    width: 29%;
+    object-fit: contain;
+    margin: 40px 0;
+    animation: fade-in-left 1.5s ease-out;
+  }
+  img:nth-child(2) {
+    width: 29%;
+    object-fit: contain;
+    margin: 20px 0;
+    animation: fade-in 1.8s ease-out;
+  }
+  img:last-child {
+    width: 29%;
+    object-fit: contain;
+    margin: 20px 0;
+    animation: fade-in-right 1.5s ease-out;
+  }
+}
+
+#restaurant-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 3em;
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 30px;
+    background-color: #1c2021;
+    color: aliceblue;
+    animation: fade-in 3s ease-out;
+
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      font-family: "Taviraj", serif;
+      color: #b28158;
+    }
+    p {
+      font-family: "Merriweather Sans", sans-serif;
+    }
+  }
+  img {
+    width: 100%;
+    margin: 20px 0;
+  }
+}

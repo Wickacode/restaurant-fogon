@@ -1,0 +1,24 @@
+.navbar {
+    background-color: #b28158;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1.2em;
+    padding: 15px;
+
+    ul {
+        display: flex;
+        justify-content: end;
+        margin-right: 150px;
+        align-items: center;
+        gap: 2em;
+
+        li {
+            cursor: pointer;
+            color: aliceblue;
+            font-weight: normal;
+
+            &:hover {
+                font-weight: bold;
+            }
+        }
+    }
+}

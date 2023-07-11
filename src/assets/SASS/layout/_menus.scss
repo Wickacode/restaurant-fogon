@@ -1,0 +1,63 @@
+#menus-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #1c2021;
+
+  h2 {
+    font-size: 3em;
+    margin: 20px 0;
+    font-family: "Taviraj", serif;
+    color: aliceblue;
+  }
+  .cartes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: auto;
+    gap: 2em;
+    text-align: center;
+
+    .menu-du-jour,
+    .menu-soir-et-weekend {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-color: #b28158;
+      -webkit-box-shadow: -6px 10px 11px -1px rgba(159,153,157,0.52); 
+box-shadow: -6px 10px 11px -1px rgba(159,153,157,0.52);
+      padding: 30px;
+    }
+    .menu-title {
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .menu-type {
+      font-size: 2em;
+      font-weight: bold;
+    }
+    hr {
+      width: 50%;
+    }
+
+    span {
+      font-style: italic;
+    }
+
+    .menu-soir-et-weekend {
+        .menu-soir-title {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        li {
+            list-style-type: disc;
+            text-align: left;
+        }
+    }
+  }
+}
