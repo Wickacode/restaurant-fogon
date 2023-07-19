@@ -23,7 +23,7 @@ export default function Home() {
             Dans ce cadre convivial et raffiné, les convives ont l'opportunité
             de savourer une expérience culinaire unique, alliant l'authenticité
             des plats classiques avec des touches innovantes et audacieuses. <br /><br /> Le
-            restaurant Fogon vous offre une diversité de mets exquis, mettant en
+            restaurant Fogón vous offre une diversité de mets exquis, mettant en
             valeur les produits frais et de saison. Les plats sont préparés avec
             une grande attention aux détails, alliant technique et savoir-faire
             pour créer des associations de goûts surprenantes. <br /><br /> Les chefs de cet

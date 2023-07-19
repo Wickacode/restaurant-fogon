@@ -6,7 +6,7 @@ export default function Chef() {
     <div id="chef-description">
       <p>
         C'est en Juillet 2022, à seulement l'âge de 23 ans, que Javier Meneses
-        ouvre son restaurant bistronomique nommmé Fogon. Cet ancien joueur de
+        ouvre son restaurant bistronomique nommé Fogón. Cet ancien joueur de
         rugby de l'aviron Bayonnais d'origine Chilienne, ne cesse d'épater ses
         convives depuis qu'il se consacre entièrement à sa cuisine.
         <br /> <br />
