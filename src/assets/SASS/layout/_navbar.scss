@@ -1,17 +1,24 @@
 .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #b28158;
     font-family: 'Tajawal', sans-serif;
+    gap: 1em;
     font-size: 1.2em;
-    padding: 15px;
+    padding: 10px 0;
 
+    img {
+        border-right: 2px solid white;
+    }
     ul {
         display: flex;
         justify-content: end;
-        margin-right: 150px;
         align-items: center;
         gap: 2em;
 
         li {
+            position: relative;
             cursor: pointer;
             color: aliceblue;
             font-weight: normal;
@@ -19,6 +26,17 @@
             &:hover {
                 font-weight: bold;
             }
+          
+        }
+    }
+
+    .contact-number {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+
+        i {
+            margin-right: 10px;
         }
     }
 }

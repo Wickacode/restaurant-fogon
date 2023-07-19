@@ -1,9 +1,11 @@
 import React from "react";
-import home01 from ".././assets/img/home_01.jpg";
-import home02 from ".././assets/img/home_02.jpg";
-import home03 from ".././assets/img/home_03.jpg";
+import home01 from ".././assets/fogon-img/06.png";
+import home02 from ".././assets/fogon-img/14.png";
+import home03 from ".././assets/fogon-img/07.png";
 
-import platFogon from ".././assets/img/plat-fogon.png";
+import Intro from "../components/Intro";
+
+import platFogon from ".././assets/fogon-img/38.png";
 
 export default function Home() {
   return (
@@ -13,7 +15,7 @@ export default function Home() {
         <img src={home02} alt="" />
         <img src={home03} alt="" />
       </section>
-
+      <Intro />
       <section id="restaurant-description">
         <div className="description">
           <h1>Le restaurant Fogón</h1>
@@ -30,9 +32,9 @@ export default function Home() {
             mémorable à leurs convives.
           </p>
         </div>
-        <div>
+        {/* <div>
           <img src={platFogon} alt="" />
-        </div>
+        </div> */}
       </section>
     </div>
   );
